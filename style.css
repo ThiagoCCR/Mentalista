@@ -1,0 +1,55 @@
+body{
+    background: black;
+    min-height: 600px;
+    background-image: url("https://t4.ftcdn.net/jpg/01/00/68/07/360_F_100680743_ZYda0cY31ekSXEikyR4AN2fMO6ZOzskO.jpg");
+    background-size: 70vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+main{
+    font-family:'Syne Mono', monospace;
+    font-size: 30px;
+    color: white;
+    padding: 0px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
+  .alura-logo {
+    width: 200px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .page-subtitle{
+    font-family:'Syne Mono', monospace;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+  }
+  .inputNumber{
+    width: 50%;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+  }
+  .button {
+    font-family:'Syne Mono', monospace;
+    margin-top: 12px;
+    padding: 8px;
+    border-radius: 10px;
+    background: purple;
+    cursor: pointer;
+    color: white
+  }
+  input{
+      width: 250px;
+  }

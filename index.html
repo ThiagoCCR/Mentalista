@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Press+Start+2P&family=Roboto:wght@700&family=Syne+Mono&display=swap" rel="stylesheet">
+    <title>Mentalista</title>
+</head>
+
+<body>
+    <main>
+        <h1>Mentalista</h1>
+        <p class="page-subtitle"> Teste os seus poderes de adivinhação...<br>
+            tente acertar o número secreto...<br>
+            chute um número de 0 a 10!</p>
+        <div class ="finalResults">
+            <p id="showAnswer"></p>
+        </div>
+        <div class ="inputNumber">
+            <input id="givenNumber" type="number" placeholder="Ouça a sua intuição e digite um número" step = "1" min="0" max="10"/>
+            <button class = "button" onclick= "giveNumber()">Testar a sorte</button>
+        </div>
+    </main> 
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="alura-logo" alt=""><br><br>
+    <script src="script.js">
+    </script>
+</body>
+</html>
